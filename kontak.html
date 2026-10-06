@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak — Clasnet Group</title>
+  <meta name="description" content="Hubungi Clasnet Group — permintaan penawaran, konsultasi IT, alamat Wangon Banjarnegara, telepon +62 851-1704-1846, email info@clasnet.co.id.">
+  <meta name="theme-color" content="#0f62fe">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/logo.png" type="image/png">
+  <script src="js/content.js"></script>
+  <script src="js/layout.js"></script>
+</head>
+<body data-page="kontak">
+  <div id="site-header"></div>
+  <script>document.getElementById('site-header').innerHTML = ClasnetLayout.header(document.body.dataset.page);</script>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Beranda</a><span class="sep">/</span><span class="current">Kontak</span></nav>
+      <span class="eyebrow">Kontak Kami</span>
+      <h1 class="display-md">Mari Bicara Tentang Proyek Anda</h1>
+      <p class="lead">Isi formulir permintaan penawaran atau hubungi kami langsung. Tim Clasnet siap membantu kebutuhan IT Anda — dukungan 24/7.</p>
+    </div>
+  </section>
+
+  <!-- KONTAK -->
+  <section class="section contact" id="kontak">
+    <div class="container">
+      <div class="form-card reveal">
+        <span class="eyebrow">Permintaan Penawaran</span>
+        <h2 class="headline" style="margin:var(--xs) 0;">Permintaan Penawaran</h2>
+        <p>Isi formulir di bawah ini dan kami akan segera menghubungi Anda dengan penawaran yang disesuaikan.</p>
+        <form id="quoteForm" novalidate>
+          <div class="field">
+            <label for="name">Nama Anda <span aria-hidden="true">*</span></label>
+            <input class="text-input" type="text" id="name" name="name" placeholder="Nama lengkap" required>
+            <span class="error-msg">Mohon isi nama Anda.</span>
+          </div>
+          <div class="field">
+            <label for="email">Alamat Email <span aria-hidden="true">*</span></label>
+            <input class="text-input" type="email" id="email" name="email" placeholder="nama@email.com" required>
+            <span class="error-msg">Mohon isi email yang valid.</span>
+          </div>
+          <div class="field">
+            <label for="message">Pesan</label>
+            <textarea class="text-area" id="message" name="message" placeholder="Ceritakan kebutuhan IT Anda..."></textarea>
+            <span class="helper">Opsional — jelaskan proyek atau kebutuhan Anda.</span>
+          </div>
+          <button class="btn btn-primary btn--block" type="submit">Kirim Permintaan
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </button>
+        </form>
+      </div>
+
+      <div class="contact-side reveal">
+        <div>
+          <span class="eyebrow">Informasi Kontak</span>
+          <h2 class="headline" style="margin:var(--xs) 0 var(--lg);">Hubungi Kami untuk Informasi Lebih Lanjut</h2>
+          <ul class="contact-info-list">
+            <li>
+              <svg class="ci-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span><span class="ci-label">Alamat</span><br><span class="ci-value">Jl. Seruling Mas No.32 Wangon, Banjarnegara, Jawa Tengah, Indonesia</span></span>
+            </li>
+            <li>
+              <svg class="ci-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span><span class="ci-label">Telepon</span><br><span class="ci-value"><a href="tel:+6285117041846">+62 851-1704-1846</a></span></span>
+            </li>
+            <li>
+              <svg class="ci-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span><span class="ci-label">Email</span><br><span class="ci-value"><a href="mailto:info@clasnet.co.id">info@clasnet.co.id</a></span></span>
+            </li>
+          </ul>
+        </div>
+        <iframe class="map-frame" title="Lokasi Clasnet di Wangon, Banjarnegara"
+          src="https://www.google.com/maps?q=Wangon,Banjarnegara,Jawa+Tengah&amp;output=embed"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLIENT BAND -->
+  <section class="client-band">
+    <div class="container">
+      <div>
+        <h3 class="card-title">Sudah menjadi klien?</h3>
+        <p>Masuk ke Client Area untuk melihat tagihan, tiket dukungan, dan dokumentasi produk.</p>
+      </div>
+      <div class="cta-actions">
+        <a class="btn btn-primary" href="https://billing.clasnet.co.id/login" target="_blank" rel="noopener">Masuk</a>
+        <a class="btn btn-tertiary" href="https://billing.clasnet.co.id/signup" target="_blank" rel="noopener">Daftar</a>
+      </div>
+    </div>
+  </section>
+
+  <div id="site-footer"></div>
+  <script>document.getElementById('site-footer').innerHTML = ClasnetLayout.footer();</script>
+  <script src="js/main.js"></script>
+</body>
+</html>

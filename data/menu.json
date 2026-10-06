@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "id": "home",
+      "key": "home",
+      "label": "Beranda",
+      "href": "index.html",
+      "order": 1,
+      "visible": true
+    },
+    {
+      "id": "profil",
+      "key": "profil",
+      "label": "Profil",
+      "href": "profil.html",
+      "order": 2,
+      "visible": true
+    },
+    {
+      "id": "program",
+      "key": "program",
+      "label": "Program",
+      "href": "program.html",
+      "order": 3,
+      "visible": true
+    },
+    {
+      "id": "produk",
+      "key": "produk",
+      "label": "Produk",
+      "href": "produk.html",
+      "order": 4,
+      "visible": true
+    },
+    {
+      "id": "edukasi",
+      "key": "edukasi",
+      "label": "Edukasi",
+      "href": "edukasi.html",
+      "order": 5,
+      "visible": true
+    },
+    {
+      "id": "portofolio",
+      "key": "portofolio",
+      "label": "Portofolio",
+      "href": "portofolio.html",
+      "order": 6,
+      "visible": true
+    },
+    {
+      "id": "kontak",
+      "key": "kontak",
+      "label": "Kontak",
+      "href": "kontak.html",
+      "order": 7,
+      "visible": true
+    }
+  ]
+}

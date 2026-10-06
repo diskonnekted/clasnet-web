@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Program — Clasnet Group</title>
+  <meta name="description" content="Program unggulan Clasnet: e-Government, Desa Pintar, UMKM Mandiri, dan Sekolah Unggul.">
+  <meta name="theme-color" content="#0f62fe">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/logo.png" type="image/png">
+  <script src="js/content.js"></script>
+  <script src="js/layout.js"></script>
+</head>
+<body data-page="program">
+  <div id="site-header"></div>
+  <script>document.getElementById('site-header').innerHTML = ClasnetLayout.header(document.body.dataset.page);</script>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Beranda</a><span class="sep">/</span><span class="current">Program</span></nav>
+      <span class="eyebrow">Program Unggulan</span>
+      <h1 class="display-md">Solusi untuk Setiap Sektor</h1>
+      <p class="lead">Empat program unggulan Clasnet untuk instansi pemerintah, desa, UMKM, dan sekolah — dirancang untuk dampak nyata.</p>
+    </div>
+  </section>
+
+  <!-- PROGRAM TABS -->
+  <section class="section" id="program">
+    <div class="container">
+      <div class="tab-strip" role="tablist" aria-label="Program Clasnet">
+        <button class="product-tab" role="tab" id="tab-egov" aria-controls="panel-egov" aria-selected="true">e-Government</button>
+        <button class="product-tab" role="tab" id="tab-desa" aria-controls="panel-desa" aria-selected="false">Desa Pintar</button>
+        <button class="product-tab" role="tab" id="tab-umkm" aria-controls="panel-umkm" aria-selected="false">UMKM Mandiri</button>
+        <button class="product-tab" role="tab" id="tab-sekolah" aria-controls="panel-sekolah" aria-selected="false">Sekolah Unggul</button>
+      </div>
+    </div>
+
+    <div class="tab-panel is-active" id="panel-egov" role="tabpanel" aria-labelledby="tab-egov">
+      <div class="container">
+        <div class="tab-panel-media"><div class="frame"><img src="assets/img/feature.jpg" alt="e-Government"></div></div>
+        <div class="tab-panel-content">
+          <h3 class="display-md">e-Government</h3>
+          <p>Revolusi pengelolaan data dan perencanaan pembangunan dengan sistem e-Government canggih kami.</p>
+          <ul class="check-list">
+            <li><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> e-Planning &amp; e-Budgeting</li>
+            <li><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Monitoring &amp; Evaluasi</li>
+            <li><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> SPI (Survei Penilaian Integrasi)</li>
+            <li><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> E-LAKIP (Laporan Kinerja Instansi Pemerintah)</li>
+          </ul>
+          <div class="tab-panel-cta"><a class="btn btn-primary" href="kontak.html">Konsultasi Sekarang
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-panel" id="panel-desa" role="tabpanel" aria-labelledby="tab-desa">
+      <div class="container">
+        <div class="tab-panel-media"><div class="frame"><img src="assets/img/desapintar.jpg" alt="Desa Pintar"></div></div>
+        <div class="tab-panel-content">
+          <h3 class="display-md">Desa Pintar</h3>
+          <p>Revolusi pengelolaan data desa dan pengambilan keputusan dengan sistem informasi canggih kami.</p>
+          <ul class="check-list">
+            <li><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Manajemen Data Desa</li>
+            <li><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Pengambilan Keputusan Berbasis Data</li>
+            <li><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Mudah Diakses</li>
+            <li><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Transparansi</li>
+          </ul>
+          <div class="tab-panel-cta"><a class="btn btn-primary" href="https://desa-s.id/" target="_blank" rel="noopener">Selengkapnya
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-panel" id="panel-umkm" role="tabpanel" aria-labelledby="tab-umkm">
+      <div class="container">
+        <div class="tab-panel-media"><div class="frame"><img src="assets/img/umkm.jpg" alt="UMKM Mandiri"></div></div>
+        <div class="tab-panel-content">
+          <h3 class="display-md">UMKM Mandiri</h3>
+          <p>Tingkatkan pengelolaan UMKM Anda dengan sistem terintegrasi dan analitik canggih.</p>
+          <ul class="check-list">
+            <li><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Sistem Terintegrasi</li>
+            <li><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Analisis &amp; Pelaporan</li>
+            <li><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Dukungan Pemasaran Digital</li>
+            <li><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Pendampingan &amp; Pelatihan</li>
+          </ul>
+          <div class="tab-panel-cta"><a class="btn btn-primary" href="kontak.html">Gabung Sekarang
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-panel" id="panel-sekolah" role="tabpanel" aria-labelledby="tab-sekolah">
+      <div class="container">
+        <div class="tab-panel-media"><div class="frame"><img src="assets/img/sekolahunggul.jpg" alt="Sekolah Unggul"></div></div>
+        <div class="tab-panel-content">
+          <h3 class="display-md">Sekolah Unggul</h3>
+          <p>Wujudkan pendidikan berkualitas dengan sistem informasi sekolah terpadu dan analitik canggih.</p>
+          <ul class="check-list">
+            <li><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Sistem Terintegrasi</li>
+            <li><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Analisis Kinerja Siswa &amp; Guru</li>
+            <li><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Fasilitasi Pembelajaran Hybrid</li>
+            <li><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Dukungan Teknis &amp; Pelatihan</li>
+          </ul>
+          <div class="tab-panel-cta"><a class="btn btn-primary" href="kontak.html">Selengkapnya
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container">
+      <div><h2 class="headline">Butuh program yang disesuaikan?</h2><p>Tim kami siap merancang solusi sektor khusus untuk instansi, desa, UMKM, atau sekolah Anda.</p></div>
+      <div class="cta-actions">
+        <a class="btn btn--inverse" href="kontak.html">Konsultasi Gratis</a>
+        <a class="btn btn--outline-inverse" href="portofolio.html">Lihat Portofolio</a>
+      </div>
+    </div>
+  </section>
+
+  <div id="site-footer"></div>
+  <script>document.getElementById('site-footer').innerHTML = ClasnetLayout.footer();</script>
+  <script src="js/main.js"></script>
+</body>
+</html>

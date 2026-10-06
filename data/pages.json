@@ -1,0 +1,88 @@
+{
+  "items": [
+    {
+      "id": "index",
+      "slug": "index",
+      "title": "Beranda",
+      "navLabel": "Beranda",
+      "metaDescription": "Clasnet Group — Software House & Developer IT",
+      "type": "system",
+      "file": "index.html",
+      "order": 1,
+      "published": true,
+      "bodyHtml": ""
+    },
+    {
+      "id": "profil",
+      "slug": "profil",
+      "title": "Profil Perusahaan",
+      "navLabel": "Profil Perusahaan",
+      "metaDescription": "Tentang Clasnet Group, keunggulan, dan tim",
+      "type": "system",
+      "file": "profil.html",
+      "order": 2,
+      "published": true,
+      "bodyHtml": ""
+    },
+    {
+      "id": "program",
+      "slug": "program",
+      "title": "Program",
+      "navLabel": "Program",
+      "metaDescription": "Program e-Government, Desa Pintar, UMKM, Sekolah Unggul",
+      "type": "system",
+      "file": "program.html",
+      "order": 3,
+      "published": true,
+      "bodyHtml": ""
+    },
+    {
+      "id": "produk",
+      "slug": "produk",
+      "title": "Produk & Layanan",
+      "navLabel": "Produk & Layanan",
+      "metaDescription": "Layanan pengembangan perangkat lunak dan paket harga",
+      "type": "system",
+      "file": "produk.html",
+      "order": 4,
+      "published": true,
+      "bodyHtml": ""
+    },
+    {
+      "id": "edukasi",
+      "slug": "edukasi",
+      "title": "Edukasi",
+      "navLabel": "Edukasi",
+      "metaDescription": "Kelas Industri, Magang, PKL, dan Academy",
+      "type": "system",
+      "file": "edukasi.html",
+      "order": 5,
+      "published": true,
+      "bodyHtml": ""
+    },
+    {
+      "id": "portofolio",
+      "slug": "portofolio",
+      "title": "Portofolio",
+      "navLabel": "Portofolio",
+      "metaDescription": "Portofolio proyek sistem informasi Clasnet Group",
+      "type": "system",
+      "file": "portofolio.html",
+      "order": 6,
+      "published": true,
+      "bodyHtml": ""
+    },
+    {
+      "id": "kontak",
+      "slug": "kontak",
+      "title": "Kontak",
+      "navLabel": "Kontak",
+      "metaDescription": "Hubungi Clasnet Group",
+      "type": "system",
+      "file": "kontak.html",
+      "order": 7,
+      "published": true,
+      "bodyHtml": ""
+    }
+  ]
+}

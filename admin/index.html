@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dasbor CMS — Clasnet</title>
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#161616">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/admin/admin.css">
+  <link rel="icon" href="/assets/logo.png" type="image/png">
+</head>
+<body class="cms">
+
+  <!-- ===== LOGIN ===== -->
+  <div id="login" class="login-screen" hidden>
+    <form id="loginForm" class="login-card">
+      <img src="/assets/logo.png" alt="" class="login-logo">
+      <h1 class="login-title">Dasbor <span>Clasnet</span></h1>
+      <p class="login-sub">Masuk untuk mengelola konten situs.</p>
+      <label class="field">
+        <span class="label">Password</span>
+        <input type="password" id="loginPass" class="text-input" autocomplete="current-password" required>
+      </label>
+      <p class="form-error" id="loginError" hidden></p>
+      <button type="submit" class="btn btn-primary login-btn">Masuk</button>
+      <p class="login-hint caption">Password default: <code>clasnet</code> — ubah di <code>data/config.json</code></p>
+    </form>
+  </div>
+
+  <!-- ===== APP ===== -->
+  <div id="app" class="app" hidden>
+    <aside class="side-nav">
+      <div class="side-brand"><img src="/assets/logo.png" alt=""><span>Clasnet <b>CMS</b></span></div>
+      <nav class="side-links" id="sideLinks">
+        <a href="#/pages" data-route="pages">Halaman</a>
+        <a href="#/menu" data-route="menu">Menu</a>
+        <a href="#/portfolio" data-route="portfolio">Portofolio</a>
+        <a href="#/content" data-route="content">Konten Situs</a>
+      </nav>
+      <div class="side-foot">
+        <a href="/" target="_blank" rel="noopener">Lihat Situs ↗</a>
+        <button id="logoutBtn" class="side-logout" type="button">Keluar</button>
+      </div>
+    </aside>
+
+    <div class="main">
+      <header class="topbar">
+        <div class="topbar-title"><h1 id="viewTitle">Halaman</h1><p id="viewSub" class="caption"></p></div>
+        <div class="topbar-actions" id="topbarActions"></div>
+      </header>
+      <div class="view" id="view"></div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" hidden></div>
+  <div id="modal" class="modal-overlay" hidden></div>
+
+  <script src="/admin/admin.js"></script>
+</body>
+</html>

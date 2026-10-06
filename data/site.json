@@ -1,0 +1,133 @@
+{
+  "brand": {
+    "name": "CLAS",
+    "accent": "NET",
+    "sub": "Software House"
+  },
+  "contact": {
+    "address": "Jl. Seruling Mas No.32 Wangon, Banjarnegara, Jawa Tengah",
+    "phone": "+62 851-1704-1846",
+    "phoneHref": "tel:+6285117041846",
+    "email": "info@clasnet.co.id"
+  },
+  "social": {
+    "facebook": "#",
+    "twitter": "#",
+    "instagram": "#",
+    "linkedin": "#"
+  },
+  "clientArea": {
+    "label": "Client Area",
+    "href": "https://billing.clasnet.co.id/login"
+  },
+  "footer": {
+    "about": "Perusahaan pengembangan IT yang berkomitmen memberikan solusi teknologi informasi terbaik untuk instansi, desa, UMKM, dan sekolah di seluruh Indonesia.",
+    "columns": [
+      {
+        "title": "Program",
+        "links": [
+          {
+            "label": "e-Government",
+            "href": "program.html"
+          },
+          {
+            "label": "Desa Pintar",
+            "href": "program.html"
+          },
+          {
+            "label": "UMKM Mandiri",
+            "href": "program.html"
+          },
+          {
+            "label": "Sekolah Unggul",
+            "href": "program.html"
+          }
+        ]
+      },
+      {
+        "title": "Edukasi",
+        "links": [
+          {
+            "label": "Kelas Industri",
+            "href": "https://kelasindustri.clasnet.co.id/",
+            "external": true
+          },
+          {
+            "label": "Magang / Internship",
+            "href": "https://internship.clasnet.id/",
+            "external": true
+          },
+          {
+            "label": "PKL",
+            "href": "https://prakerin.clasnet.id/",
+            "external": true
+          },
+          {
+            "label": "Unison Academy",
+            "href": "https://academy.unison.id/",
+            "external": true
+          }
+        ]
+      },
+      {
+        "title": "Produk",
+        "links": [
+          {
+            "label": "Paket Harga",
+            "href": "produk.html"
+          },
+          {
+            "label": "CCTV",
+            "href": "https://cctv.clasnet.id/harga-paket-4-camera/",
+            "external": true
+          },
+          {
+            "label": "Permintaan Penawaran",
+            "href": "produk.html"
+          },
+          {
+            "label": "Client Area",
+            "href": "https://billing.clasnet.co.id/login",
+            "external": true
+          }
+        ]
+      },
+      {
+        "title": "Perusahaan",
+        "links": [
+          {
+            "label": "Tentang Kami",
+            "href": "profil.html"
+          },
+          {
+            "label": "Portofolio",
+            "href": "portofolio.html"
+          },
+          {
+            "label": "Anggota Tim",
+            "href": "profil.html#tim"
+          },
+          {
+            "label": "Kontak",
+            "href": "kontak.html"
+          }
+        ]
+      }
+    ],
+    "bottom": "© Clasnet Group. All Rights Reserved. Dibangun dengan Carbon Design System.",
+    "legal": [
+      {
+        "label": "Syarat & Ketentuan",
+        "href": "#"
+      },
+      {
+        "label": "Kebijakan Privasi",
+        "href": "#"
+      }
+    ]
+  },
+  "seo": {
+    "defaultTitle": "Clasnet Group — Software House & Developer IT",
+    "defaultDescription": "Perusahaan pengembangan IT untuk instansi, desa, UMKM, dan sekolah di seluruh Indonesia."
+  }
+}

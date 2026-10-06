@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detail Proyek — Clasnet Group</title>
+  <meta name="description" content="Detail proyek portofolio Clasnet Group: spesifikasi, teknologi, dan tautan situs.">
+  <meta name="theme-color" content="#0f62fe">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/logo.png" type="image/png">
+  <script src="js/content.js"></script>
+  <script src="js/layout.js"></script>
+</head>
+<body data-page="portofolio">
+
+  <div id="site-header"></div>
+  <script>document.getElementById('site-header').innerHTML = ClasnetLayout.header('portofolio');</script>
+
+  <main id="detailRoot">
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Beranda</a><span class="sep">/</span><a href="portofolio.html">Portofolio</a></nav>
+        <p class="lead">Memuat detail proyek…</p>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script>document.getElementById('site-footer').innerHTML = ClasnetLayout.footer();</script>
+
+  <script src="js/portfolio-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio — Clasnet Group</title>
+  <meta name="description" content="Portofolio Clasnet Group: 21+ proyek sistem informasi, e-government, dashboard analitik, IoT, dan platform desa/UMKM/sekolah.">
+  <meta name="theme-color" content="#0f62fe">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/logo.png" type="image/png">
+  <script src="js/content.js"></script>
+  <script src="js/layout.js"></script>
+</head>
+<body data-page="portofolio">
+  <div id="site-header"></div>
+  <script>document.getElementById('site-header').innerHTML = ClasnetLayout.header(document.body.dataset.page);</script>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Beranda</a><span class="sep">/</span><span class="current">Portofolio</span></nav>
+      <span class="eyebrow">Portofolio</span>
+      <h1 class="display-md">Karya &amp; Proyek Kami</h1>
+      <p class="lead">Dari open data pemerintah, perizinan terpadu, sistem informasi desa, hingga dashboard analitik dan IoT — berikut sebagian proyek yang telah kami kerjakan.</p>
+    </div>
+  </section>
+
+  <!-- PORTOFOLIO GRID -->
+  <section class="section" id="portofolio">
+    <div class="container">
+      <div class="filter-bar" id="portfolioFilter" role="group" aria-label="Filter kategori portofolio"></div>
+      <p class="portfolio-count" id="portfolioCount">Memuat proyek…</p>
+      <div class="portfolio-grid" id="portfolioGrid"></div>
+    </div>
+  </section>
+
+  <!-- TESTIMONI -->
+  <section class="section section--surface">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Testimoni</span>
+        <h2 class="display-md">Apa Kata Klien Kami</h2>
+        <p>Dengarkan pengalaman mereka yang telah merasakan manfaat layanan kami.</p>
+      </div>
+      <div class="testi-grid reveal">
+        <article class="resource-tile">
+          <div class="stars" aria-label="5 bintang"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+          <blockquote>Profesionalisme mereka luar biasa. Sistem informasi yang dikembangkan sangat membantu dalam proses belajar mengajar siswa kami.</blockquote>
+          <div class="testi-author"><span class="avatar"><img src="assets/img/testimonial-1.jpg" alt="Andi Prasetyo"></span><span><span class="name">Andi Prasetyo</span><br><span class="role">Kepala Sekolah</span></span></div>
+        </article>
+        <article class="resource-tile">
+          <div class="stars" aria-label="5 bintang"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+          <blockquote>Tim ini memahami betul kebutuhan sistem informasi di sekolah kami. Fitur-fitur yang ditawarkan sangat relevan dan mudah digunakan.</blockquote>
+          <div class="testi-author"><span class="avatar"><img src="assets/img/testimonial-2.jpg" alt="Budi Santoso"></span><span><span class="name">Budi Santoso</span><br><span class="role">Administrator</span></span></div>
+        </article>
+        <article class="resource-tile">
+          <div class="stars" aria-label="5 bintang"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+          <blockquote>Kami sangat puas dengan hasil kerja mereka. Sistem informasi sekolah yang dikembangkan telah meningkatkan efektivitas manajemen kami secara signifikan.</blockquote>
+          <div class="testi-author"><span class="avatar"><img src="assets/img/testimonial-3.jpg" alt="Siti Rahayu"></span><span><span class="name">Siti Rahayu</span><br><span class="role">Guru</span></span></div>
+        </article>
+        <article class="resource-tile">
+          <div class="stars" aria-label="5 bintang"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+          <blockquote>Mereka telah membantu kami mengoptimalkan proses administrasi sekolah. Rekomendasi terbaik untuk solusi informasi sekolah!</blockquote>
+          <div class="testi-author"><span class="avatar"><img src="assets/img/testimonial-4.jpg" alt="Dinda Putri"></span><span><span class="name">Dinda Putri</span><br><span class="role">Siswa</span></span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- VENDOR MARQUEE -->
+  <section class="section" style="padding-top:0;">
+    <div class="container">
+      <div class="section-head reveal" style="margin-bottom:var(--xl);">
+        <span class="eyebrow">Mitra &amp; Vendor</span>
+        <h2 class="display-md">Dipercaya Mitra Terpercaya</h2>
+      </div>
+    </div>
+    <div class="marquee reveal">
+      <div class="marquee-track" id="marqueeTrack">
+        <div class="customer-logo-tile"><img src="assets/img/vendor-1.jpg" alt="Vendor 1"></div>
+        <div class="customer-logo-tile"><img src="assets/img/vendor-2.jpg" alt="Vendor 2"></div>
+        <div class="customer-logo-tile"><img src="assets/img/vendor-3.jpg" alt="Vendor 3"></div>
+        <div class="customer-logo-tile"><img src="assets/img/vendor-4.jpg" alt="Vendor 4"></div>
+        <div class="customer-logo-tile"><img src="assets/img/vendor-5.jpg" alt="Vendor 5"></div>
+        <div class="customer-logo-tile"><img src="assets/img/vendor-6.jpg" alt="Vendor 6"></div>
+        <div class="customer-logo-tile"><img src="assets/img/vendor-7.jpg" alt="Vendor 7"></div>
+        <div class="customer-logo-tile"><img src="assets/img/vendor-8.jpg" alt="Vendor 8"></div>
+        <div class="customer-logo-tile"><img src="assets/img/vendor-9.jpg" alt="Vendor 9"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container">
+      <div><h2 class="headline">Punya proyek serupa?</h2><p>Mari diskusikan bagaimana kami dapat membantu mewujudkan solusi digital untuk organisasi Anda.</p></div>
+      <div class="cta-actions">
+        <a class="btn btn--inverse" href="kontak.html">Mulai Proyek</a>
+        <a class="btn btn--outline-inverse" href="produk.html">Lihat Layanan</a>
+      </div>
+    </div>
+  </section>
+
+  <div id="site-footer"></div>
+  <script>document.getElementById('site-footer').innerHTML = ClasnetLayout.footer();</script>
+  <script src="js/portfolio-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
